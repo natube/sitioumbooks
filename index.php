@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Inicio</title>
+  <title>UM-Books</title>
 <!-- Estilos de bootstrap comun -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
