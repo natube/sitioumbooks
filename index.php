@@ -59,7 +59,7 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/UMBooks.png" alt="Imperial">
+          <img class="" src="img/umbooks.png" alt="Imperial">
         </div>
   <!-- Prueba de git -->
         <h1>Bienvenidos a UM BOOKS</h1>
