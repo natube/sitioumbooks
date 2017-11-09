@@ -61,7 +61,7 @@
         <div class="hero-logo">
           <img class="" src="img/UMBooks.png" alt="Imperial">
         </div>
-
+  <!-- Prueba de git -->
         <h1>Bienvenidos a UM BOOKS</h1>
         <h2>Tus libros <span class="rotating">a un solo click, en tus manos, mas leidos</span></h2>
         <div class="actions">
