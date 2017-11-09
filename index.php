@@ -50,7 +50,7 @@
     Author URL: https://bootstrapmade.com
   ======================================================= -->
 </head>
-
+<!-- ------------- -->
 <body>
   <div id="preloader"></div>
 
