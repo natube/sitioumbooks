@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>UM-Books</title>
 <!-- Estilos de bootstrap comun -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -53,14 +54,12 @@
 <body>
   <div id="preloader"></div>
 
-  <!--==========================
-  Hero Section
-  ============================-->
+  <!--==========================Hero Section============================-->
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/logo.png" alt="Imperial">
+          <img class="" src="img/UMBooks.png" alt="Imperial">
         </div>
 
         <h1>Bienvenidos a UM BOOKS</h1>
@@ -72,9 +71,6 @@
               <div class="row">
               <div class="col-md-4 col-md-offset-2">
                 <div class="input-group">
-                      <span class="input-group-addon">
-                      <input type="radio" aria-label="Radio button for following text input">
-                      </span>
                   <input type="text" class="form-control form-control-lg" aria-label="Text input with radio button" placeholder="Ingrese nombre del libro/autor">
                   </div>
                 </div>
@@ -146,9 +142,9 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+     <div class="row">  
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=zyTCAlFPjgYC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71-ADkJZZJ0Pm3-88OyX1xIUgASV4vFrRZwHpdX3nKTiP4J2_Dg6hvfj8Zg_ht9vWcHW4L_QvCBrUL79uVGoQ91HtR_gEr9AiJjdz-3yPSOOLwJ0o_oFfBqy24t9Ny6VFmYKNp4&source=gbs_api) no-repeat;" href="">
             <div class="details">
               <h4>Nombre del libro</h4>
               <span>?</span>
@@ -156,8 +152,8 @@
           </a>
         </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71kpHAdzY54hcee0eZxs7727hYmiIHxru77Rhv8wDNp7DPv1xRE1JmdJ4kuCg3aj616D0MT7ReacIeBDmNEdzO0qOqGjmbE79nbpMnf5iLiUiKwUqqpKytRwwT8VjIT8UobGXzK&source=gbs_api) no-repeat;" href="">
             <div class="details">
               <h4>Nombre del libro</h4>
               <span></span>
@@ -165,44 +161,29 @@
           </a>
         </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71kpHAdzY54hcee0eZxs7727hYmiIHxru77Rhv8wDNp7DPv1xRE1JmdJ4kuCg3aj616D0MT7ReacIeBDmNEdzO0qOqGjmbE79nbpMnf5iLiUiKwUqqpKytRwwT8VjIT8UobGXzK&source=gbs_api) no-repeat;" href="">
             <div class="details">
               <h4>Nombre del libro</h4>
-              <span>Alored dono par</span>
+              <span></span>
             </div>
           </a>
         </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71kpHAdzY54hcee0eZxs7727hYmiIHxru77Rhv8wDNp7DPv1xRE1JmdJ4kuCg3aj616D0MT7ReacIeBDmNEdzO0qOqGjmbE79nbpMnf5iLiUiKwUqqpKytRwwT8VjIT8UobGXzK&source=gbs_api) no-repeat;" href="">
             <div class="details">
               <h4>Nombre del libro</h4>
-              <span>Alored dono par</span>
+              <span></span>
             </div>
           </a>
         </div>
+      </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 5</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" href="">
-            <div class="details">
-              <h4>Nombre del libro</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" href="">
+      
+      <div class="row"> 
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=zyTCAlFPjgYC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71-ADkJZZJ0Pm3-88OyX1xIUgASV4vFrRZwHpdX3nKTiP4J2_Dg6hvfj8Zg_ht9vWcHW4L_QvCBrUL79uVGoQ91HtR_gEr9AiJjdz-3yPSOOLwJ0o_oFfBqy24t9Ny6VFmYKNp4&source=gbs_api) no-repeat;" href="">
             <div class="details">
               <h4>Nombre del libro</h4>
               <span>?</span>
@@ -210,16 +191,34 @@
           </a>
         </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" href="">
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71kpHAdzY54hcee0eZxs7727hYmiIHxru77Rhv8wDNp7DPv1xRE1JmdJ4kuCg3aj616D0MT7ReacIeBDmNEdzO0qOqGjmbE79nbpMnf5iLiUiKwUqqpKytRwwT8VjIT8UobGXzK&source=gbs_api) no-repeat; " href="">
             <div class="details">
               <h4>Nombre del libro</h4>
-              <span>Alored dono par</span>
+              <span>?</span>
             </div>
           </a>
         </div>
 
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71kpHAdzY54hcee0eZxs7727hYmiIHxru77Rhv8wDNp7DPv1xRE1JmdJ4kuCg3aj616D0MT7ReacIeBDmNEdzO0qOqGjmbE79nbpMnf5iLiUiKwUqqpKytRwwT8VjIT8UobGXzK&source=gbs_api) no-repeat;" href="">
+            <div class="details">
+              <h4>Nombre del libro</h4>
+              <span>?</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 recomendacion">
+          <a class="portfolio-item" style="background: url(http://books.google.com/books/content?id=2zgRDXFWkm8C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70R8bJ0BDcCpX91S6eis9POmMFsO1ORKd1JO8K_PGOSonUH8-9BNhv6LUFPFo1e_sw_XYASaU70WnKGpDMZBBjdaVL_aTGW7P8lSb6pabwr7NOoHrUCigOeQ0mprJcy-S4SWb3-&source=gbs_api) no-repeat;" href="">
+            <div class="details">
+              <h4>Nombre del libro</h4>
+              <span></span>
+            </div>
+          </a>
+        </div>
       </div>
+    </div>
     </div>
   </section>
   <!--========================== Footer ============================-->
