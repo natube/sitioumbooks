@@ -107,7 +107,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/UMBooks.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="img/umbooks.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Header 1</a></h1>-->
       </div>
